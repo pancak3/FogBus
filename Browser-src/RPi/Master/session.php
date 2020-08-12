@@ -31,7 +31,7 @@ Enter Data for analysis:
 <input type='submit' name='analyze' value='analyze' />
 </form>
 
-<?php
+<?php	
 
 // If data entered, show the data values stored in data files
 $datafile = fopen("data.txt", "w");
