@@ -28,6 +28,8 @@ else{
 &nbsp;&nbsp;&nbsp;&nbsp;
 <input type='submit' name='session' value='Go To Session Page' />
 <br><br>
+<input type='submit' name='camera' value='Go To Camerea Page' />
+<br><br>
 <input type='submit' name='back' value='Go Back' />
 </fieldset>
 </form>
@@ -44,6 +46,9 @@ elseif(isset($_POST['session'])) {
 }
 elseif(isset($_POST['back'])) {
 	header('Location: ../'); 
+}
+elseif(isset($_POST['camera'])) {
+	header('Location: rtsp.php'); 
 }
 
 ?>

@@ -31,9 +31,9 @@
 session_start();
 
 // Database settings
-$host = "localhost";
+$host = "127.0.0.1";
 $user = "root";
-$pass = "";
+$pass = "raspberry";
 $db = "users";
 
 // Connection to database
